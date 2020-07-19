@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Pacifico&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="location">
+      <h1 class="location-timezone">Location</h1>
+      <canvas class="icon" width="128" height="128"></canvas>
+    </div>
+    <div class="temperature">
+      <div class="degree-section">
+        <h2 class="temp-degree"></h2>
+        <span id='celcius'>C</span>
+        <span id='fahrenheit'>F</span>
+      </div>
+      <div class="temp-desc">---------</div>
+    </div>
+    <script src="app.js"></script>
+    <script src="skycons.js"></script>
+    <p id='owner'>Mufaddal Patanwala</p>
+  </body>
+</html>

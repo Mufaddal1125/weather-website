@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Pacifico&display=swap');
+body{
+    height: 100vh;
+    min-width: 360px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(241, 130, 130), rgb(195, 10, 113));
+    background-attachment: fixed;
+    color: white;
+}
+*{
+    font-family: 'Pacifico', cursive;
+}
+
+.location, .temperature{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temperature{
+    flex-direction: column;
+}
+
+.degree-section{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+.degree-section span{
+    margin: 10px;
+    font-size: 30px;
+}
+.degree-section h2{
+    font-size: 40px;
+}
+
+#owner{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 10px 20px;
+    font-family: 'Courgette', cursive;
+}
